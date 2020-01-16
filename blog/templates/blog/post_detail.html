@@ -43,7 +43,7 @@
                     
                         <a class="btn btn-default" href="{% url 'post_edit' pk=post.pk%}">Изменить<span class="letter"></span></a>
                       
-                        <a class="btn btn-default2" href="{% url 'post_delete' pk=post.pk%}">Удалить<span class="letter"></span></a>
+                        <a class="btn btn-default" href="{% url 'post_delete' pk=post.pk%}">Удалить<span class="letter"></span></a>
                         <h1>{{post.title}}</h1>
                         <p>{{post.text|linebreaksbr}}</p>
                     </div>
